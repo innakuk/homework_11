@@ -383,25 +383,25 @@ a {
     background-color: #C9E8F2;
 }
 
-.chief .container {
+.chief__container {
     padding: 53px 20px 105px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.quote {
+.chief__quote {
     padding-top: 10px;
 }
 
-.chief_quote {
+.chief__quote-text {
     font-size: 30px;
     line-height: 40px;
     width: 895px;
     margin-bottom: 23px;
 }
 
-.author {
+.chief__author {
     font-size: 15px;
     line-height: 25px;
     margin-bottom: 7px;
@@ -825,6 +825,21 @@ a {
         margin-bottom: 15px;
     }
 
+    .chief__container {
+        padding: 20px
+    }
+
+    .chief__quote-text {
+        font-size: 20px;
+        line-height: 25px;
+        width: 100%;
+        margin-bottom: 13px;
+    }
+
+    .revolut_chief {
+        width: 200px;
+        height: auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1003,5 +1018,35 @@ a {
 
     .team__list {
         flex-wrap: wrap;
+    }
+
+    .chief__container {
+        flex-wrap: wrap;
+    }
+
+    .chief__quote {
+        padding-top: 0;
+    }
+
+    .chief__quote-text {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .chief__author {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 7px;
+    }
+
+    .chief__revolut-logo {
+        width: 80px;
+        height: auto;
+    }
+
+    .revolut_chief {
+        width: 100px;
+        height: auto;
     }
 }
