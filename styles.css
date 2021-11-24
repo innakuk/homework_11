@@ -607,7 +607,7 @@ a {
     margin-right: 124px;
 }
 
-.copyright .container {
+.copyright__container {
     max-width: 1290px;
     border-top: 1px solid #000000;
     padding-top: 52px;
@@ -961,6 +961,18 @@ a {
     .product, .support, .company_all {
         margin-right: 0px;
     }
+
+    .copyright__container {
+        padding: 20px 10px;
+    }
+
+    .desc_localise {
+        margin-right: auto;
+    }
+
+    .additional {
+        padding-bottom: 15px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1272,5 +1284,13 @@ a {
 
     .add-info__container {
         padding: 30px 10px 10px 10px;
+    }
+
+    .copyright__container {
+        flex-wrap: wrap;
+    }
+
+    .copyright__logo_localise, .desc_localise {
+        margin-bottom: 5px;
     }
 }
