@@ -530,7 +530,7 @@ a {
     padding-bottom: 43px;
 }
 
-.add_info .container {
+.add-info__container {
     padding: 92px 31px 95px 20px;
     display: flex;
 }
@@ -910,6 +910,57 @@ a {
         font-size: 35px;
         line-height: 45px;
     }
+
+    .add-info__container {
+        padding: 50px 20px;
+        flex-wrap: wrap;
+    }
+
+    .studies {
+        margin-right: 0px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .add-info__specialized-logo {
+        margin-right: 25px;
+    }
+
+    .studies_cupture {
+        font-size: 30px;
+        line-height: 45px;
+        margin-right: 30px;
+    }
+
+    .read_more {
+        margin-bottom: 20px;
+    }
+
+    .studies_pic {
+        width: 150px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .studies_info {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .all_info {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .read_more {
+        font-size: 15px;
+    }
+
+    .product, .support, .company_all {
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1202,5 +1253,24 @@ a {
     .localization-how__link {
         width: 100%;
         text-align: center;
+    }
+
+    .all_info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .all_info_list:not(:last-child) {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    .all_info_chapter, .all_info_item {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .add-info__container {
+        padding: 30px 10px 10px 10px;
     }
 }
