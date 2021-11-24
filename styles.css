@@ -364,8 +364,7 @@ a {
     font-size: 20px;
     line-height: 30px;
     margin-right: 31px;
-    margin-bottom: 25px;
-    
+    margin-bottom: 25px;    
 }
 
 .team__desc_margin-less {
@@ -411,18 +410,18 @@ a {
     background-color: #DABC98;
 }
 
-.reviews .container {
+.reviews__container {
     padding: 90px 0px 88px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.reviews_logo {
+.reviews__logo {
     margin-right: 67px;
 }
 
-.reviews_caption {
+.reviews__caption {
     font-weight: 600;
     font-size: 35px;
     line-height: 50px;
@@ -430,24 +429,24 @@ a {
     margin-right: 124px;
 }
 
-.line {
+.reviews__line {
     width: 1px;
     height: 168px;
     background-color: #000000;
     margin-right: 71px;
 }
 
-.users_rating {
+.reviews__users-rating {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.pic_reviews {
+.reviews__pic {
     margin-bottom: 20px;
 }
 
-.pic_stars {
+.reviews__pic-stars {
     margin-bottom: 14px;
 }
 
@@ -840,6 +839,48 @@ a {
         width: 200px;
         height: auto;
     }
+
+    .reviews__container {
+        padding: 20px 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .reviews__logo {
+        margin-right: 20px;
+        width: 100px;
+        height: auto;
+    }
+
+    .reviews__caption {
+        font-size: 25px;
+        line-height: 25px;
+        width: 40%;
+        margin-right: 10px;
+    }
+
+    .reviews__line {
+        height: 100px;
+        margin-right: 20px;
+    }
+
+    .reviews__pic {
+        margin-bottom: 10px;
+    }
+
+    .q_reviews {
+        margin-right: 20px;
+    }
+
+    .reviews__pic-stars {
+        margin-bottom: 5px;
+        width: 70%;
+        height: auto;
+    }
+
+    .reviews__desc {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1048,5 +1089,51 @@ a {
     .revolut_chief {
         width: 100px;
         height: auto;
+    }
+
+    .reviews__logo {
+        width: 80px;
+        height: auto;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+
+    .reviews__caption {
+        font-size: 16px;
+        line-height: 20px;
+        width: 180px;
+    }
+
+    .reviews__line {
+        display: none;
+    }
+
+    .reviews__pic-stars {
+        width: 50%;
+        height: auto;
+    }
+
+    .reviews__desc {
+        font-size: 12px;
+    }
+
+    .reviews__pic-capterra {
+        width: 100px;
+    }
+
+    .reviews__pic-q {
+        width: 26px;
+    }
+
+    .reviews__users-rating {
+        width: 100px;
+    }
+
+    .reviews__container {
+        justify-content: center;
+    }
+
+    .reviews__logo, .reviews__caption, .reviews__users-rating {
+        margin-right: 20px;
     }
 }
