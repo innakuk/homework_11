@@ -978,7 +978,7 @@ a {
 @media (max-width: 769px) {
 
     body {
-        min-width: 320px;
+        min-width: 360px;
     }
 
     .header__container {
@@ -1273,8 +1273,13 @@ a {
     }
 
     .all_info_list:not(:last-child) {
-        margin-right: 20px;
+        margin-right: 5px;
         margin-bottom: 10px;
+    }
+
+    .all_info_link {
+        font-size: 13px;
+        line-height: 10px;
     }
 
     .all_info_chapter, .all_info_item {
@@ -1291,6 +1296,6 @@ a {
     }
 
     .copyright__logo_localise, .desc_localise {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 }
